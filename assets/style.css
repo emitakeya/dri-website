@@ -19,17 +19,17 @@ body.lang-en [data-l]:not([data-l="en"]),
 body.lang-ja [data-l]:not([data-l="ja"]){display:none !important}
 
 /* Header */
-header.site{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.site{position:sticky;top:0;z-index:10;background:var(--black);border-bottom:1px solid #000}
 header.site .wrap{display:flex;align-items:center;gap:16px;height:64px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:.01em}
-.brand img{width:36px;height:36px;border-radius:8px}
-.brand small{display:block;font-weight:500;color:var(--muted);font-size:11px;letter-spacing:.06em;text-transform:uppercase;line-height:1.2}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#fff;font-weight:700;letter-spacing:.01em}
+.brand img{width:30px;height:30px}
+.brand small{display:block;font-weight:500;color:#A39B92;font-size:11px;letter-spacing:.06em;text-transform:uppercase;line-height:1.2}
 nav.main{margin-left:auto;display:flex;gap:18px;font-size:14px}
-nav.main a{color:var(--ink);text-decoration:none}
-nav.main a:hover{color:var(--brown)}
-.langs{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;font-size:12px}
-.langs button{border:0;background:none;padding:6px 10px;cursor:pointer;font:inherit;color:var(--muted)}
-.langs button[aria-pressed="true"]{background:var(--black);color:#fff}
+nav.main a{color:#E8E3DD;text-decoration:none}
+nav.main a:hover{color:#C9A27E}
+.langs{display:flex;border:1px solid #3A3631;border-radius:999px;overflow:hidden;font-size:12px}
+.langs button{border:0;background:none;padding:6px 10px;cursor:pointer;font:inherit;color:#A39B92}
+.langs button[aria-pressed="true"]{background:#fff;color:var(--black)}
 @media (max-width:760px){nav.main{display:none}.langs{margin-left:auto}}
 
 /* Hero */
@@ -96,3 +96,4 @@ footer.site .copy{margin-top:28px;padding-top:18px;border-top:1px solid #2E2A26;
   .langs button{padding:6px 8px}
 }
 @media (min-width:760px){.grid-2{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.brand{font-size:14px;line-height:1.2}.brand small{display:none}.langs button{white-space:nowrap;padding:6px 7px}header.site .wrap{gap:10px}}

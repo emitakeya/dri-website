@@ -16,7 +16,7 @@ HEAD = """<!DOCTYPE html>
 <body class="lang-id">
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="/"><img src="/assets/logo.png" alt="DRI logo"><span>PT Duta Retail Indonesia<small>DRI</small></span></a>
+    <a class="brand" href="/"><img src="/assets/logo-white.png" alt="DRI logo"><span>PT Duta Retail Indonesia<small>DRI</small></span></a>
     <nav class="main">
       <a href="/#about"><span data-l="id">Tentang</span><span data-l="en">About</span><span data-l="ja">会社概要</span></a>
       <a href="/#products"><span data-l="id">Produk &amp; Harga</span><span data-l="en">Products &amp; Prices</span><span data-l="ja">商品・価格</span></a>
