@@ -19,6 +19,7 @@ HEAD = """<!DOCTYPE html>
     <a class="brand" href="/"><img src="/assets/logo-white.png" alt="DRI logo"><span>PT Duta Retail Indonesia<small>DRI</small></span></a>
     <nav class="main">
       <a href="/#about"><span data-l="id">Tentang</span><span data-l="en">About</span><span data-l="ja">会社概要</span></a>
+      <a href="/#store"><span data-l="id">Toko</span><span data-l="en">Our Store</span><span data-l="ja">店舗</span></a>
       <a href="/#products"><span data-l="id">Produk &amp; Harga</span><span data-l="en">Products &amp; Prices</span><span data-l="ja">商品・価格</span></a>
       <a href="/#order"><span data-l="id">Cara Pesan</span><span data-l="en">How to Order</span><span data-l="ja">ご注文方法</span></a>
       <a href="/#contact"><span data-l="id">Kontak</span><span data-l="en">Contact</span><span data-l="ja">お問い合わせ</span></a>
